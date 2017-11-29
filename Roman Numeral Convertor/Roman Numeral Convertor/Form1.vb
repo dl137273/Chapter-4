@@ -4,6 +4,22 @@
             lblRomanNumeral.Text = "I"
         ElseIf txtInteger.Text = 2 Then
             lblRomanNumeral.Text = "II"
+        ElseIf txtInteger.Text = 3 Then
+            lblRomanNumeral.Text = "III"
+        ElseIf txtInteger.Text = 4 Then
+            lblRomanNumeral.Text = "IV"
+        ElseIf txtInteger.Text = 5 Then
+            lblRomanNumeral.Text = "V"
+        ElseIf txtInteger.Text = 6 Then
+            lblRomanNumeral.Text = "VI"
+        ElseIf txtInteger.Text = 7 Then
+            lblRomanNumeral.Text = "VII"
+        ElseIf txtInteger.Text = 8 Then
+            lblRomanNumeral.Text = "VIII"
+        ElseIf txtInteger.Text = 9 Then
+            lblRomanNumeral.Text = "IX"
+        ElseIf txtInteger.Text = 10 Then
+            lblRomanNumeral.Text = "X"
         End If
     End Sub
 
