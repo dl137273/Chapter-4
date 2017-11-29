@@ -28,6 +28,7 @@ Partial Class Form1
         Me.lblRomanNumeral = New System.Windows.Forms.Label()
         Me.btnConvert = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
+        Me.btnClear = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -65,7 +66,7 @@ Partial Class Form1
         '
         'btnConvert
         '
-        Me.btnConvert.Location = New System.Drawing.Point(71, 185)
+        Me.btnConvert.Location = New System.Drawing.Point(24, 185)
         Me.btnConvert.Name = "btnConvert"
         Me.btnConvert.Size = New System.Drawing.Size(68, 23)
         Me.btnConvert.TabIndex = 4
@@ -74,18 +75,28 @@ Partial Class Form1
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(165, 185)
+        Me.btnExit.Location = New System.Drawing.Point(209, 185)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 5
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
+        'btnClear
+        '
+        Me.btnClear.Location = New System.Drawing.Point(113, 185)
+        Me.btnClear.Name = "btnClear"
+        Me.btnClear.Size = New System.Drawing.Size(75, 23)
+        Me.btnClear.TabIndex = 6
+        Me.btnClear.Text = "Clear"
+        Me.btnClear.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(323, 245)
+        Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnConvert)
         Me.Controls.Add(Me.lblRomanNumeral)
@@ -104,5 +115,6 @@ Partial Class Form1
     Friend WithEvents lblRomanNumeral As System.Windows.Forms.Label
     Friend WithEvents btnConvert As System.Windows.Forms.Button
     Friend WithEvents btnExit As System.Windows.Forms.Button
+    Friend WithEvents btnClear As System.Windows.Forms.Button
 
 End Class
